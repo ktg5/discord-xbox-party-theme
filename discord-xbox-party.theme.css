@@ -2,13 +2,14 @@
  * @name         Discord with Xbox Live Party icons
  * @description  legit just the icons by ppl's thing in the vc
  * @author       @ktg5
- * @version      1.0
+ * @version      1.0.1
  * @website      https://github.com/ktg5/discord-xbox-party-theme
  * @source       https://github.com/ktg5/discord-xbox-party-theme/discord-xbox-party.theme.css
  * @authorId     184070212012736512
- */
+*/
 
- .userAvatar-3Hwf1F.avatar-3FKimL.avatarSmall-3qwAkA {
+
+.userAvatar-3Hwf1F.avatar-3FKimL.avatarSmall-3qwAkA {
     margin-left: 45px;
 }
 
@@ -22,20 +23,21 @@
     height: 30px;
     display: block;
     margin-left: 20px;
-    margin-top: 6px;
+    margin-top: 5.5px;
     position: absolute;
     top:0px;
     left:0px;
     z-index: -1;
-    display: block;
 }
 
 .avatarSpeaking-2pCGrZ::before {
     background: url('https://raw.githubusercontent.com/ktg5/discord-xbox-party-theme/main/img/live-active-i.png');
     background-repeat: no-repeat;
-    background-size: 19px;
+    background-size: 21px;
     opacity: 1;
-    margin-left: 17px;
+    margin-left: 18px;
+    margin-top: 6.5px;
+    margin-bottom: .5px;
 }
 
 .list-2x9Cl9.list-2kKmFw.listDefault-2F-w65 {
