@@ -1,10 +1,10 @@
 <h1 align="center">discord-xbox-party-theme <kbd>1.0</kbd></h1>
-<div font-size="24px" align="center">Discord but it's got Xbox 360 Live Party icons by people in VC...</div>
+<div font-size="24px" align="center">Discord but it's got Xbox 360 Live Party icons by people in the Vc </div>
 
 ## Screenshots.
 <div align="center">
   <img src="docs/demo.gif" alt="Demo of theme in VC.">
-  <div font-size="8px">Demo of theme in VC.</div>
+  <div font-size="8px">Demo of the theme in VC.</div>
 </div>
 
 ## How to work.
