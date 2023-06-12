@@ -1,0 +1,51 @@
+/**
+ * @name         Discord with Xbox Live Party icons
+ * @description  legit just the icons by ppl's thing in the vc
+ * @author       @ktg5
+ * @version      1.0
+ * @website      https://github.com/ktg5/discord-xbox-party-theme
+ * @source       https://github.com/ktg5/discord-xbox-party-theme/discord-xbox-party.theme.css
+ * @authorId     184070212012736512
+ */
+
+ .userAvatar-3Hwf1F.avatar-3FKimL.avatarSmall-3qwAkA {
+    margin-left: 45px;
+}
+
+.userAvatar-3Hwf1F::before {
+    content: '';
+    background: url('https://raw.githubusercontent.com/ktg5/discord-xbox-party-theme/main/img/live-not-active-i.png');
+    background-repeat: no-repeat;
+    background-size: 11px;
+    opacity: 0.5;
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-left: 20px;
+    margin-top: 6px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index: -1;
+    display: block;
+}
+
+.avatarSpeaking-2pCGrZ::before {
+    background: url('https://raw.githubusercontent.com/ktg5/discord-xbox-party-theme/main/img/live-active-i.png');
+    background-repeat: no-repeat;
+    background-size: 19px;
+    opacity: 1;
+    margin-left: 17px;
+}
+
+.list-2x9Cl9.list-2kKmFw.listDefault-2F-w65 {
+    padding-left: 0;
+}
+
+.usernameFont-2oJxoI.username-vAneIW {
+    color: var(--channels-default);
+}
+
+.userAvatar-3Hwf1F.avatar-3FKimL.avatarSmall-3qwAkA {
+    box-shadow: none;
+}
