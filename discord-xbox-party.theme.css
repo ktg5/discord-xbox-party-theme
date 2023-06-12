@@ -2,7 +2,7 @@
  * @name         Discord with Xbox Live Party icons
  * @description  legit just the icons by ppl's thing in the vc
  * @author       @ktg5
- * @version      1.0.1
+ * @version      1.0.2
  * @website      https://github.com/ktg5/discord-xbox-party-theme
  * @source       https://github.com/ktg5/discord-xbox-party-theme/discord-xbox-party.theme.css
  * @authorId     184070212012736512
@@ -23,7 +23,7 @@
     height: 30px;
     display: block;
     margin-left: 20px;
-    margin-top: 5.5px;
+    margin-top: 5.675px;
     position: absolute;
     top:0px;
     left:0px;
@@ -36,7 +36,7 @@
     background-size: 21px;
     opacity: 1;
     margin-left: 18px;
-    margin-top: 6.5px;
+    margin-top: 6.785px;
     margin-bottom: .5px;
 }
 
