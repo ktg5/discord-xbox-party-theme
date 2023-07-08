@@ -4,7 +4,7 @@
 ## Screenshots.
 <div align="center">
   <img src="docs/demo.gif" alt="Demo of theme in VC.">
-  <div font-size="8px">Demo of theme in VC.</div>
+  <div font-size="8px">Demo of the theme in VC.</div>
 </div>
 
 ## How to work.
