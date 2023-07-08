@@ -2,7 +2,7 @@
  * @name         Discord with Xbox Live Party icons
  * @description  legit just the icons by ppl's thing in the vc
  * @author       @ktg5
- * @version      1.1
+ * @version      1.1.1
  * @website      https://github.com/ktg5/discord-xbox-party-theme
  * @source       https://github.com/ktg5/discord-xbox-party-theme/discord-xbox-party.theme.css
  * @authorId     184070212012736512
@@ -49,6 +49,15 @@
 
 .userAvatar-3Hwf1F.avatar-3FKimL.avatarSmall-3qwAkA {
     box-shadow: none;
+}
+
+div[aria-label="Voice (Limited)"] svg.icon-2W8DHg path, div[aria-label="Voice"] svg.icon-2W8DHg path {
+    opacity: 0;
+}
+
+div[aria-label="Voice (Limited)"] svg.icon-2W8DHg, div[aria-label="Voice"] svg.icon-2W8DHg {
+    background: url('https://raw.githubusercontent.com/ktg5/discord-xbox-party-theme/main/img/party icon.png') no-repeat;
+    background-size: 19px;
 }
 
 /* Support for StaffTag */
