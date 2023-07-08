@@ -33,9 +33,9 @@
 .avatarSpeaking-2pCGrZ::after {
     background: url('https://raw.githubusercontent.com/ktg5/discord-xbox-party-theme/main/img/live-active-i.png');
     background-repeat: no-repeat;
-    background-size: 21px;
+    background-size: 20px;
     opacity: 1;
-    right: 18px;
+    margin-left: 16.5px;
     top: 0.95px;
 }
 
