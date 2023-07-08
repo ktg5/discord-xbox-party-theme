@@ -2,7 +2,7 @@
  * @name         Discord with Xbox Live Party icons
  * @description  legit just the icons by ppl's thing in the vc
  * @author       @ktg5
- * @version      1.0.1
+ * @version      1.1
  * @website      https://github.com/ktg5/discord-xbox-party-theme
  * @source       https://github.com/ktg5/discord-xbox-party-theme/discord-xbox-party.theme.css
  * @authorId     184070212012736512
@@ -11,9 +11,10 @@
 
 .userAvatar-3Hwf1F.avatar-3FKimL.avatarSmall-3qwAkA {
     margin-left: 45px;
+    border-radius: 0;
 }
 
-.userAvatar-3Hwf1F::before {
+.userAvatar-3Hwf1F::after {
     content: '';
     background: url('https://raw.githubusercontent.com/ktg5/discord-xbox-party-theme/main/img/live-not-active-i.png');
     background-repeat: no-repeat;
@@ -25,19 +26,17 @@
     margin-left: 20px;
     margin-top: 5.5px;
     position: absolute;
-    top:0px;
-    left:0px;
-    z-index: -1;
+    top: 0px;
+    left: 0px;
 }
 
-.avatarSpeaking-2pCGrZ::before {
+.avatarSpeaking-2pCGrZ::after {
     background: url('https://raw.githubusercontent.com/ktg5/discord-xbox-party-theme/main/img/live-active-i.png');
     background-repeat: no-repeat;
     background-size: 21px;
     opacity: 1;
-    margin-left: 18px;
-    margin-top: 6.5px;
-    margin-bottom: .5px;
+    right: 18px;
+    top: 0.95px;
 }
 
 .list-2x9Cl9.list-2kKmFw.listDefault-2F-w65 {
@@ -50,4 +49,25 @@
 
 .userAvatar-3Hwf1F.avatar-3FKimL.avatarSmall-3qwAkA {
     box-shadow: none;
+}
+
+/* Support for StaffTag */
+
+.ownerIcon-255uKo.icon-1dGlZy.owner-FfFh3B path, .ownerIcon-255uKo.icon-1dGlZy.admin-Kv1Hp_ path, .ownerIcon-255uKo.icon-1dGlZy.management-3fF_o8 path {
+    opacity: 0;
+}
+
+svg.ownerIcon-255uKo.icon-1dGlZy.owner-FfFh3B {
+    background: url('https://raw.githubusercontent.com/ktg5/discord-xbox-party-theme/main/img/owner.png');
+    background-size: 14px;
+}
+
+svg.ownerIcon-255uKo.icon-1dGlZy.admin-Kv1Hp_ {
+    background: url('https://raw.githubusercontent.com/ktg5/discord-xbox-party-theme/main/img/admin.png');
+    background-size: 14px;
+}
+
+svg.ownerIcon-255uKo.icon-1dGlZy.management-3fF_o8 {
+    background: url('https://raw.githubusercontent.com/ktg5/discord-xbox-party-theme/main/img/mod.png');
+    background-size: 14px;
 }
