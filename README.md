@@ -9,7 +9,7 @@
 
 ## How to work.
 1. [Download BetterDiscord](https://betterdiscord.app/)
-2. Download [the theme (CSS)](https://github.com/ktg5/discord-xbox-party-theme/discord-xbox-party.theme.css)
+2. Download [the theme (CSS)](https://raw.githubusercontent.com/ktg5/discord-xbox-party-theme/main/discord-xbox-party.theme.css)
 3. Open up `User Settings` > `BetterDiscord` > `Themes`, and click `Open Themes Folders`.
 4. Drag-and-drop [the theme](https://github.com/ktg5/discord-xbox-party-theme/discord-xbox-party.theme.css) into the folder that was just opened.
 5. Enable the theme from the `Themes` page.
