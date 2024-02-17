@@ -55,7 +55,7 @@ div[aria-label="Voice (Limited) icon"] svg path, div[aria-label="Voice icon"] sv
     opacity: 0;
 }
 
-div[aria-label="Voice (Limited) icon"] svg, div[aria-label="Voice icon"] svg.icon-2W8DHg {
+div[aria-label="Voice (Limited) icon"] svg, div[aria-label="Voice icon"] svg {
     background: url('https://raw.githubusercontent.com/ktg5/discord-xbox-party-theme/main/img/party icon.png') no-repeat;
     background-size: 19px;
 }
@@ -95,12 +95,14 @@ span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="owner"]
     background-color: none !important;
     background-size: 14px !important;
     background-repeat: no-repeat !important;
+    background-position: center !important;
     color: #fff !important;
     box-shadow: none !important;
     border: none !important;
     padding: 0 !important;
     margin: 0 0 0 4px !important;
     width: 14px !important;
+    height: 18px !important;
     filter: drop-shadow(0px 0px 2px black);
 }
 
