@@ -9,6 +9,9 @@
 */
 
 
+/* Base */
+
+/* Voice channel stuff */
 .userAvatar_c4f005.avatar-3FKimL.avatarSmall-3qwAkA {
     margin-left: 45px;
     border-radius: 0;
@@ -60,23 +63,37 @@ div[aria-label="Voice (Limited) icon"] svg, div[aria-label="Voice icon"] svg {
     background-size: 19px;
 }
 
+/* server icon */
+.upperBadge_c7cfb3 .icon__92653 {
+    background: url(https://github.com/ktg5/discord-xbox-party-theme/blob/main/img/party%20icon.png?raw=true) center center no-repeat;
+    background-size: 10px;
+}
+
+.upperBadge_c7cfb3 .icon__92653 path {
+    display: none;
+}
+
 
 /* Support for StaffTag */
 
+/* global */
 .ownerIcon-255uKo.icon-1dGlZy.owner-FfFh3B path, .ownerIcon-255uKo.icon-1dGlZy.admin-Kv1Hp_ path, .ownerIcon-255uKo.icon-1dGlZy.management-3fF_o8 path {
     opacity: 0;
 }
 
+/* owner */
 svg.ownerIcon-255uKo.icon-1dGlZy.owner-FfFh3B {
     background: url('https://raw.githubusercontent.com/ktg5/discord-xbox-party-theme/main/img/owner.png');
     background-size: 14px;
 }
 
+/* admin */
 svg.ownerIcon-255uKo.icon-1dGlZy.admin-Kv1Hp_ {
     background: url('https://raw.githubusercontent.com/ktg5/discord-xbox-party-theme/main/img/admin.png');
     background-size: 14px;
 }
 
+/* mod / management */
 svg.ownerIcon-255uKo.icon-1dGlZy.management-3fF_o8 {
     background: url('https://raw.githubusercontent.com/ktg5/discord-xbox-party-theme/main/img/mod.png');
     background-size: 14px;
@@ -85,12 +102,16 @@ svg.ownerIcon-255uKo.icon-1dGlZy.management-3fF_o8 {
 
 /* Support for MoreUserTags (Vencord) */
 
+/* global */
 span.botTag_a52f38[data-tag="staff"],
 span.botTag_a52f38[data-tag="admin"],
 span.botTag_a52f38[data-tag="owner"],
 span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="staff"],
 span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="admin"],
-span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="owner"]
+span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="owner"],
+span.botTagCozy_dd88d1.botTag__11e95[data-tag="staff"],
+span.botTagCozy_dd88d1.botTag__11e95[data-tag="admin"],
+span.botTagCozy_dd88d1.botTag__11e95[data-tag="owner"]
 {
     background-color: none !important;
     background-size: 14px !important;
@@ -106,30 +127,40 @@ span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="owner"]
     filter: drop-shadow(0px 0px 2px black);
 }
 
+/* disable text */
 span.botTag_a52f38[data-tag="staff"] .botText__19848,
 span.botTag_a52f38[data-tag="admin"] .botText__19848,
 span.botTag_a52f38[data-tag="owner"] .botText__19848,
 span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="staff"] .botText__19848,
 span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="admin"] .botText__19848,
-span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="owner"] .botText__19848
+span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="owner"] .botText__19848,
+span.botTagCozy_dd88d1.botTag__11e95[data-tag="staff"] .botText__19848,
+span.botTagCozy_dd88d1.botTag__11e95[data-tag="admin"] .botText__19848,
+span.botTagCozy_dd88d1.botTag__11e95[data-tag="owner"] .botText__19848
 {
     display: none;
 }
 
+/* staff */
 span.botTag_a52f38[data-tag="staff"],
-span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="staff"]
+span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="staff"],
+span.botTagCozy_dd88d1.botTag__11e95[data-tag="staff"]
 {
     background: url('https://raw.githubusercontent.com/ktg5/discord-xbox-party-theme/main/img/mod.png');
 }
 
+/* admin */
 span.botTag_a52f38[data-tag="admin"],
-span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="admin"]
+span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="admin"],
+span.botTagCozy_dd88d1.botTag__11e95[data-tag="admin"]
 {
     background: url('https://raw.githubusercontent.com/ktg5/discord-xbox-party-theme/main/img/admin.png');
 }
 
+/* owner */
 span.botTag_a52f38[data-tag="owner"],
-span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="owner"]
+span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="owner"],
+span.botTagCozy_dd88d1.botTag__11e95[data-tag="owner"]
 {
     background: url('https://raw.githubusercontent.com/ktg5/discord-xbox-party-theme/main/img/owner.png');
 }
