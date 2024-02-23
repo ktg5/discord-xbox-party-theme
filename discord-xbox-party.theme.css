@@ -106,12 +106,18 @@ svg.ownerIcon-255uKo.icon-1dGlZy.management-3fF_o8 {
 span.botTag_a52f38[data-tag="staff"],
 span.botTag_a52f38[data-tag="admin"],
 span.botTag_a52f38[data-tag="owner"],
+span.botTag_a52f38[data-tag="vc mod"],
+span.botTag_a52f38[data-tag="mod"],
 span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="staff"],
 span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="admin"],
 span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="owner"],
+span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="vc mod"],
+span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="mod"],
 span.botTagCozy_dd88d1.botTag__11e95[data-tag="staff"],
 span.botTagCozy_dd88d1.botTag__11e95[data-tag="admin"],
-span.botTagCozy_dd88d1.botTag__11e95[data-tag="owner"]
+span.botTagCozy_dd88d1.botTag__11e95[data-tag="owner"],
+span.botTagCozy_dd88d1.botTag__11e95[data-tag="vc mod"],
+span.botTagCozy_dd88d1.botTag__11e95[data-tag="mod"]
 {
     background-color: none !important;
     background-size: 14px !important;
@@ -131,25 +137,37 @@ span.botTagCozy_dd88d1.botTag__11e95[data-tag="owner"]
 span.botTag_a52f38[data-tag="staff"] .botText__19848,
 span.botTag_a52f38[data-tag="admin"] .botText__19848,
 span.botTag_a52f38[data-tag="owner"] .botText__19848,
+span.botTag_a52f38[data-tag="vc mod"] .botText__19848,
+span.botTag_a52f38[data-tag="mod"] .botText__19848,
 span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="staff"] .botText__19848,
 span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="admin"] .botText__19848,
 span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="owner"] .botText__19848,
+span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="vc mod"] .botText__19848,
+span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="mod"] .botText__19848,
 span.botTagCozy_dd88d1.botTag__11e95[data-tag="staff"] .botText__19848,
 span.botTagCozy_dd88d1.botTag__11e95[data-tag="admin"] .botText__19848,
-span.botTagCozy_dd88d1.botTag__11e95[data-tag="owner"] .botText__19848
+span.botTagCozy_dd88d1.botTag__11e95[data-tag="owner"] .botText__19848,
+span.botTagCozy_dd88d1.botTag__11e95[data-tag="vc mod"] .botText__19848,
+span.botTagCozy_dd88d1.botTag__11e95[data-tag="mod"] .botText__19848
 {
     display: none;
 }
 
-/* staff */
-span.botTag_a52f38[data-tag="staff"],
-span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="staff"],
-span.botTagCozy_dd88d1.botTag__11e95[data-tag="staff"]
+/* mods */
+span.botTag_a52f38[data-tag="vc mod"],
+span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="vc mod"],
+span.botTagCozy_dd88d1.botTag__11e95[data-tag="vc mod"],
+span.botTag_a52f38[data-tag="mod"],
+span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="mod"],
+span.botTagCozy_dd88d1.botTag__11e95[data-tag="mod"]
 {
     background: url('https://raw.githubusercontent.com/ktg5/discord-xbox-party-theme/main/img/mod.png');
 }
 
-/* admin */
+/* admin & staff */
+span.botTag_a52f38[data-tag="staff"],
+span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="staff"],
+span.botTagCozy_dd88d1.botTag__11e95[data-tag="staff"],
 span.botTag_a52f38[data-tag="admin"],
 span.infoSpacing_d7e11c.headerBotTagWithNickname_a3c88c[data-tag="admin"],
 span.botTagCozy_dd88d1.botTag__11e95[data-tag="admin"]
